@@ -61,13 +61,20 @@ main {
     border: 1px #C5CBD0 solid;
     color: #C5CBD0;
 }
-
 section {
-    padding: 10px 60px;
+    padding: 10px 50px;
+}
+
+.triangle {
+    font-size: 14px;
+    transform: rotate(45deg);
+    margin-bottom: 10px;
 }
 
 h3 {
+    display: inline-block;
     margin-top: 20px;
+    padding: 10px;
 }
 
 ul {
@@ -81,9 +88,19 @@ li {
 
 .inline {
     display: inline-block;
+    vertical-align: middle;
+}
+
+.done {
+    color: #65C0A9;
+}
+
+.todo{
+    color: #EA4237;
 }
 
 .topic {
+    vertical-align: middle;
     font-size: 14px;
     display: inline;
     padding: 6px 12px;
